@@ -1,29 +1,32 @@
-# vuellet
+# *Vue*llet 💰
 
-## Project setup
-```
-yarn install
-```
+Simple application to manage your wallet, made with **Vue**!
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+## About Vuellet
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+The original name for this app was meant to be _MyWallet_, but since I decided to create it with **Vue**, the better name that came into my head was **Vuellet** _(Vue + Wallet)_
 
-### Run your tests
-```
-yarn run test
-```
+This app is my side project created to learn Vue and Vuetify, but I'll try to do my best to create something amazing!
 
-### Lints and fixes files
-```
-yarn run lint
+## Development
+
+If you want to contribute to this app, you should fork this repo, clone it and run the app itself:
+
+```bash
+$ git clone https://github.com/TheLukaszNs/Vuellet
+$ cd Vuellet
+$ npm install (or yarn)
+$ npm run serve (or yarn serve)
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+If you had any issues with setup, please let me know [here](https://github.com/TheLukaszNs/Vuellet/issues)
+
+## Contributors
+
+This is the list of our current contributors:
+
+- @[TheLukaszNs](https://github.com/TheLukaszNs)
+
+## License
+
+This application is licensed under MIT license, check it [here](./LICENSE).
