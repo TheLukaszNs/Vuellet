@@ -10,7 +10,7 @@
         <ToolbarItem v-for="link in links" :key="link.title" :title="link.title" :icon="link.icon"/>
       </v-toolbar-items>
     </v-toolbar>
-    <v-navigation-drawer permanent app mini-variant>
+    <v-navigation-drawer floating permanent app mini-variant>
       <v-toolbar flat/>
       <v-list dir class="mt-2 pt-0">
         <v-list-tile v-for="link in links" :key="link.title" @click>
@@ -20,6 +20,10 @@
         </v-list-tile>
       </v-list>
     </v-navigation-drawer>
+    <v-footer class="pa-3" app>
+      <v-spacer/>
+      &copy; {{ new Date().getFullYear() }} - Łukasz Myśliwiec
+    </v-footer>
   </nav>
 </template>
 
